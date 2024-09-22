@@ -1,0 +1,79 @@
+###################################################################
+# University of Toronto
+
+# Faculty of Information
+
+# Bachelor of Information
+
+# INF452: Information Design Studio V: Coding
+#
+#
+#
+
+# Student Name: Michael Shmelev
+
+# Student Number: 1010810197
+
+#
+#
+#
+# Tutorial_3_1_Shmelev_Michael
+# Purpose: Program to convert seconds into hours
+# Date Created: 09,18,2024
+# Date Modified: 09,18,2024
+###################################################################
+
+# Calculate and display the result of 11+12+13+14+15+16+17+18+19+20
+result = 11 + 12 + 13 + 14 + 15 + 16 + 17 + 18 + 19 + 20
+print("The result of 11+12+13+14+15+16+17+18+19+20 is:", result)
+
+
+###############
+
+# Define the radius and the constant value for π
+radius = 6.25
+pi = 3.14159
+
+# Calculate the area of the circle
+area = radius * radius * pi
+# Calculate the perimeter
+perimeter = 2 * radius * pi
+
+# Display the results
+print("Area:", area)
+print("Perimeter:", perimeter)
+
+##################
+
+# Conversion factor from feet to meters
+conversion_factor = 0.305
+
+# Read the number in feet from the user
+feet = float(input("Enter the number in feet: "))
+
+# Convert feet to meters
+meters = feet * conversion_factor
+
+# Display the result
+print("The number in meters is:", meters)
+
+#####################
+
+# Conversion factors
+pound_to_kg = 0.45359237
+inch_to_meter = 0.0254
+
+# Prompt the user to enter weight in pounds 
+weight_pounds = float(input("Enter your weight in pounds: "))
+# Prompt for height in inches
+height_inches = float(input("Enter your height in inches: "))
+
+# Convert weight to kilograms and height to meters
+weight_kg = weight_pounds * pound_to_kg
+height_meters = height_inches * inch_to_meter
+
+# Calculate BMI
+bmi = weight_kg / (height_meters ** 2)
+
+# Display the BMI
+print("Your BMI is:", bmi)
